@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(38, 72, 38);
+}
+.main-div{
+    margin-left: 300px;
+    padding: 200px;
+}
+.main{
+    margin-left: 300px;
+}
+.sec-1,.sec-2,.sec-3{
+    margin-left: 80px;
+}
+.inpt-1,.inpt-2,.inpt-3{
+    width: 350px;
+    height:40px;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.span-tag{
+    color: whitesmoke;
+}
+.span-tag:hover{
+    cursor: pointer;
+    color: rgb(98, 98, 210);
+}
+h2,p{
+    color: wheat;
+}
+.btn:hover{
+    background-color: rgb(24, 209, 24);
+    cursor: pointer;
+}
+.logout-div{
+    margin-left: 1000px;
+}
+.logging-out:hover{
+    cursor: pointer;
+    color: red;
+}
