@@ -19,7 +19,6 @@ app.post('/register',async (req,res)=>{
 
             req.body.password=hashPassword
             const data =await userSchema.create(req.body)
-            console.log(data)
             return res.json('done')
         }
 
